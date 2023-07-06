@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:sans-serif;
+    }
+
+    .header {
+        background-color: #333333;
+        color: white;
+        width: 1000px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #F1F1F1;
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #da1616;
+        color: black;
+        font-weight: bold;
+    }
+
+    .top-content {
+        text-align: center;
+        width: 1000px;
+        padding: 40px;
+        line-height: 40px;
+    }
+
+    .top-content__btn {
+        padding: 1px 3px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: opacity 1s ease;
+        margin-bottom: 30px;
+    }
+
+    .top-content__btn:hover {
+        opacity: 0.5;
+    }
+
+    .feature{
+        width: 1000px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .mid-content{
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    .mid-content__disc{
+        text-align: center;
+    }
+
+    .bot-content{
+        width: 1000px;
+        text-align: center;
+        padding: 40px;
+    }
+    .bot-content__disc{
+        margin-bottom: 15px;
+    }
+
+    .footer{
+        width: 1000px;
+        background-color: #333333;
+        color: white;
+        text-align: center;
+        padding: 10px 30px;
+    }
+</style>
+
+<body>
+    <h2 class="header">Portfolio Website</h2>
+    <ul class="nav">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+
+    <div class="top-content">
+        <h1>Welcome to my portfolio website</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illo ratione impedit. In aspernatur, possimussaepe impedit</p>
+        <button class="top-content__btn">View Portfolio</button>
+    </div>
+
+    <h2 class="feature">Featured Work</h2>
+    <div class="mid-content">
+        <div class="mid-content__one">
+            <img src="./img_portfolio.PNG" alt="">
+            <p class="mid-content__disc">Project 1</p>
+        </div>
+        <div class="mid-content__two">
+            <img src="./img_portfolio.PNG" alt="">
+            <p class="mid-content__disc">Project 2</p>
+        </div>
+        <div class="mid-content__three">
+            <img src="./img_portfolio.PNG" alt="">
+            <p class="mid-content__disc">Project 3</p>
+        </div>
+        <div class="mid-content__four">
+            <img src="./img_portfolio.PNG" alt="">
+            <p class="mid-content__disc">Project 4</p>
+        </div>
+    </div>
+
+    <div class="bot-content">
+        <h2 class="bot-content__disc">About Me</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rem deleniti ex consectetur quaerat temporibus, asperiores, autem aliquam minima vitae assumenda voluptates labore facilis eaque dolor excepturi magnam iure libero reiciendis fugit provident perferendis necessitatibus veniam molestias! </p>
+    </div>
+
+    <div class="footer">
+        <p>&copy 2023 Portfolio Website</p>
+    </div>
+
+</body>
+</html>
